@@ -3,5 +3,5 @@ library identifier: 'wolox-ci@use-image-no-dockerfile',
 
 node {
   checkout scm
-  woloxCi('.pipeline.yaml');
+  woloxCi('01/.pipeline.yaml');
 }
