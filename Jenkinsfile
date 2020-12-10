@@ -1,4 +1,4 @@
-library identifier: 'wolox-ci@use_image_instead_of_dockerfile', 
+library identifier: 'wolox-ci@use-image-no-dockerfile', 
         retriever: modernSCM([$class: 'GitSCMSource', remote: 'https://github.com/mhewedy/wolox-ci.git'])
 
 node {
