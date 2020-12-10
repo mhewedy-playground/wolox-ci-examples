@@ -1,0 +1,11 @@
+config:
+  project_name: hello-world
+  image: golang:alpine
+
+steps:
+  build:
+    - go build -o hello-world
+    - chmod +x hello-world
+  test:
+    - ./hello-world
+
