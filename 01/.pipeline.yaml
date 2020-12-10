@@ -1,7 +1,0 @@
-config:
-  project_name: hello-world-01
-  image: golang
-
-steps:
-  build:
-    - go build
