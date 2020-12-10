@@ -1,11 +1,8 @@
 config:
   project_name: hello-world
-  image: golang:alpine
+  image: node:alpine
 
 steps:
   build:
-    - go build -o hello-world
-    - chmod +x hello-world
-  test:
-    - ./hello-world
+    - node app.js
 
